@@ -90,3 +90,4 @@ Click on Substrate/CreateRectangle:
 
 Adding the die attach material:
 Create a rectangle with the same size as the die:
+
