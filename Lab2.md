@@ -27,7 +27,9 @@ Draw it:
 Modify properties:
 
 ![image](https://github.com/user-attachments/assets/49623f1a-f4b3-471f-828a-043aa4dd9e0f)
+
 ![image](https://github.com/user-attachments/assets/5d02aae4-d6cc-4c4d-9b0a-c88091939e46)
+
 ![image](https://github.com/user-attachments/assets/fd9e30d7-2f2a-4a5f-9d05-1d72fe5f0289)
 
 Add the thickness: Select the rectangle, then Modeler > Surface > Thicken Sheet
@@ -46,6 +48,7 @@ Rename “Rectangle” to “Die”: Click on Rectangle, modify name; Also, set 
 Add substrate: Select “Rectangle”, draw it:
 
 ![image](https://github.com/user-attachments/assets/983e1f87-0b75-4e67-a099-05326a09faad)
+
 ![image](https://github.com/user-attachments/assets/f3518ae2-3583-4595-9814-9f25fe04552d)
 
 Click on Rectangle1/CreateRectangle, adjust the size based on the spec (5mm x 5mm), adjust the position such as the die is on the center:
@@ -66,12 +69,14 @@ Click on 3Thicken Sheet”:
 
 Adjust thickness to -5mm:
 ![image](https://github.com/user-attachments/assets/b702fe8e-2202-4c07-b304-574c5892f8a2)
+
 ![image](https://github.com/user-attachments/assets/2c75dfbb-3173-4f7a-a2e7-aa64997b1500)
 
 Let’s adjust the substrate properties: Name, material
 Click on Rectangle1:
 
 ![image](https://github.com/user-attachments/assets/95d010a4-4474-4cef-b335-6b3747fdfcd0)
+
 ![image](https://github.com/user-attachments/assets/fa62aec0-5313-4b44-b7b2-79d5d445f943)
 
 But the die is not directly sitting on the substrate, there is also the die attach material, we need to adjust the Z position:
@@ -79,7 +84,9 @@ But the die is not directly sitting on the substrate, there is also the die atta
 Click on Substrate/CreateRectangle:
 
 ![image](https://github.com/user-attachments/assets/194cc3b0-12e1-4354-8bdb-27692731e4d2)
+
 ![image](https://github.com/user-attachments/assets/dc7da8f5-5514-40d4-a014-fcf40f749bc1)
+
 ![image](https://github.com/user-attachments/assets/68af986c-3cc7-4889-9e29-e11cb7ca469e)
 
 Adding the die attach material:
@@ -87,16 +94,19 @@ Adding the die attach material:
 Create a rectangle with the same size as the die:
 
 ![image](Picture1.png)
+
 ![image](Picture2.png)
 
 And add the thickness as -0.1mm:
 
 ![image](Picture3.png)
+
 ![image](Picture4.png)
 
 Adjust properties: name, material:
 
 ![image](Picture5.png)
+
 ![image](Picture6.png)
 
 Wire Bonding:
@@ -110,6 +120,7 @@ Create a rectangle, edit properties:
 Add thickness of 5um:
 
 ![image](Picture8.png)
+
 ![image](Picture9.png)
 
 Create bond pad on the substrate:
@@ -125,8 +136,11 @@ And rename bond pads:
 Connect the Bond pads with Bond Wire:
 
 ![image](Picture12.png)
+
 ![image](Picture13.png)
+
 ![image](Picture14.png)
+
 ![image](Picture15.png)
 
 We’ll choose the defaults parameters.
@@ -136,8 +150,11 @@ We’ll choose the defaults parameters.
 Create a second die bonding pad:
 
 ![image](Picture17.png)
+
 ![image](Picture18.png)
+
 ![image](Picture19.png)
+
 ![image](Picture20.png)
 
 And rename to diebondpad2:
@@ -147,17 +164,25 @@ And rename to diebondpad2:
 Create a second substrate bond pad, add thickness:
 
 ![image](Picture22.png)
+
 ![image](Picture23.png)
+
 ![image](Picture24.png)
+
 ![image](Picture25.png)
+
 ![image](Picture26.png)
+
 ![image](Picture27.png)
+
 ![image](Picture28.png)
+
 ![image](Picture29.png)
 
 Select “Gold” for the bond wires material:
 
 ![image](Picture30.png)
+
 ![image](Picture31.png)
 
 The mold compound will come over all the substrate, thickness > die attach (0.1mm) + die (0.2mm) + wire bond height (about 0.4mm)
@@ -169,11 +194,13 @@ To create mold, first create a rectangle over the substrate:
 Add thickness:
 
 ![image](Picture33.png)
+
 ![image](Picture34.png)
 
 , name and material:
 
 ![image](Picture35.png)
+
 ![image](Picture36.png)
 
 Enough mold compound height for laser marking, so wire bonds will not be affected
