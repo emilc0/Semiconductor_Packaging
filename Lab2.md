@@ -1,7 +1,9 @@
 
-## Lab 2 (Module 5) Design a wire bond package (die, die attach, wire bonding, molding)
+## Lab 2 (Module 5) Design a wire bond package 
 
-The model will be built in Q3D 
+(die, die attach, wire bonding, molding)
+
+The model will be built in Q3D Tool:
 ![image](https://github.com/user-attachments/assets/a410152a-0c3c-43d5-a6bf-f40e39225094)
 
 
