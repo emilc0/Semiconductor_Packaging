@@ -2,7 +2,6 @@
 
 (using Ansys Electronics Desktop Student)
 
-
 Making a Flip-chip BGA package: importing geometry, setting up AED
 
 We will use Icepak Tool:
@@ -31,6 +30,7 @@ The emphasys is not doing a 3D model, but to analyze a packages, what are the di
 So, we will import an existing Flipchip_BGA package:
 
 ![image](https://github.com/user-attachments/assets/cb88d7e2-89e4-4297-af23-154f7d8f6cc4)
+
 ![image](https://github.com/user-attachments/assets/ca7b5313-ae19-45b4-affa-a02b77c3724c)
 
 We will take the default dimensions (15x15mm, 1.6mm package thickness)
@@ -139,6 +139,7 @@ Generate Mesh:
 We are asked to save the project:
 
 ![image](https://github.com/user-attachments/assets/f97efb65-1230-407f-bc1f-6c32b4078e67)
+
 ![image](https://github.com/user-attachments/assets/de6773f5-27e0-47e3-a5bc-9db26b253498)
 
 Mesh generated:
@@ -153,6 +154,7 @@ Keep all mesh settings to default
 
 Mesh Operation is done:
 ![image](https://github.com/user-attachments/assets/9bda404f-3d77-4f45-b276-8dab27281185)
+
 ![image](https://github.com/user-attachments/assets/3f371c2d-ec03-4725-84d9-bc8a96a17ca6)
 
 What is left is the Analysis.
@@ -164,6 +166,7 @@ Add a Solution Setup:
 ![image](https://github.com/user-attachments/assets/984fcd06-3aa7-46a8-affb-b65871751b1a)
 
 Keep defaults (No radiation, laminar flow), keep defaults for Convergence settings:
+
 ![image](https://github.com/user-attachments/assets/6877a59f-156a-4ee0-b9b6-1ba995d1a2bc)
 
 Click “ok” to add the Soluton Setuo “Setup1”
@@ -173,6 +176,7 @@ Click “ok” to add the Soluton Setuo “Setup1”
 “Validate”:
 
 ![image](https://github.com/user-attachments/assets/20afdb91-a157-4258-acb7-f81815f17315)
+
 ![image](https://github.com/user-attachments/assets/b7638bbd-2d03-4746-b990-075d83827b06)
 
 Warning:
@@ -182,7 +186,9 @@ Warning:
 Need to assign mesh to underfill:
 
 ![image](https://github.com/user-attachments/assets/924c101b-a58c-4314-9f82-ad9384ae0450)
+
 ![image](https://github.com/user-attachments/assets/38b1b88c-33b4-4b0d-be70-a6bc8ab67af4)
+
 ![image](https://github.com/user-attachments/assets/c6b42e7f-f8c8-44c9-9929-843fa9edcce2)
 
 MeshRegion1 created:
@@ -228,7 +234,9 @@ Select the whole package:
 Plot temperature:
 
 ![image](https://github.com/user-attachments/assets/448b819c-47fc-4139-84cb-05ce0f1ef057)
+
 ![image](https://github.com/user-attachments/assets/1e3e8d32-b5f8-459e-b034-b462901caa73)
+
 ![image](https://github.com/user-attachments/assets/0ba36620-5a26-496d-adc3-a8718e6b1ed9)
 
 Result: temperature map:
@@ -238,14 +246,20 @@ Result: temperature map:
 Report temperature of the 3 monitored points:
 
 ![image](https://github.com/user-attachments/assets/a3785623-d10a-4b34-a0f1-079fe8cffb9f)
-![image](https://github.com/user-attachments/assets/86d75d02-3cc7-47fa-bc4c-1bebe9035ea1)
-![image](https://github.com/user-attachments/assets/855a461c-fa3c-43bc-bddb-99554f78d799)
-![image](https://github.com/user-attachments/assets/b7ddca4f-b49c-4225-aa6c-9eb73cb8e84b)
-![image](https://github.com/user-attachments/assets/60f6a82e-cb1c-412c-8202-a8a6f6e8452d)
-![image](https://github.com/user-attachments/assets/b731cf47-f1d2-4c54-a78e-e774b0c349c9)
-![image](https://github.com/user-attachments/assets/83de1653-c5a6-4517-bd05-d7896a588f67)
-![image](https://github.com/user-attachments/assets/8c8a39d8-26a3-41a4-b546-28050d1ebff1)
 
+![image](https://github.com/user-attachments/assets/86d75d02-3cc7-47fa-bc4c-1bebe9035ea1)
+
+![image](https://github.com/user-attachments/assets/855a461c-fa3c-43bc-bddb-99554f78d799)
+
+![image](https://github.com/user-attachments/assets/b7ddca4f-b49c-4225-aa6c-9eb73cb8e84b)
+
+![image](https://github.com/user-attachments/assets/60f6a82e-cb1c-412c-8202-a8a6f6e8452d)
+
+![image](https://github.com/user-attachments/assets/b731cf47-f1d2-4c54-a78e-e774b0c349c9)
+
+![image](https://github.com/user-attachments/assets/83de1653-c5a6-4517-bd05-d7896a588f67)
+
+![image](https://github.com/user-attachments/assets/8c8a39d8-26a3-41a4-b546-28050d1ebff1)
 
 Or, in a single Monitor Table:
 
