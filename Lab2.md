@@ -91,3 +91,5 @@ Click on Substrate/CreateRectangle:
 Adding the die attach material:
 Create a rectangle with the same size as the die:
 
+
+[Lab1](Picture1.png)
